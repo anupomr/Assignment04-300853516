@@ -43,5 +43,10 @@ namespace Assignment04_300853516
         {
             return (MoonCount > 0);
         }
+        public override string ToString()
+        {
+            string result = base.ToString() + "\n Habitable: " + _oxygen;
+            return result;
+        }
     }
 }

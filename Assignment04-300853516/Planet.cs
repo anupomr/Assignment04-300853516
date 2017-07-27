@@ -44,7 +44,7 @@ namespace Assignment04_300853516
         // Public Methods 
         public override string ToString()
         {
-            string result = "";
+            string result = " Name :"+ Name+ "\n Diameter :"+ Diameter+ "\n Mass :"+ Mass;
             return result;
         }
     }

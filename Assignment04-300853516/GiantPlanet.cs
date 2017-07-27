@@ -36,7 +36,12 @@ namespace Assignment04_300853516
 
         public bool HasRings()
         {
-            return (RingCount>0);
+            return (RingCount > 0);
+        }
+        public override string ToString()
+        {
+            string result = base.ToString()+ "\n Type: "+ _type;
+            return result;
         }
     }
 }
